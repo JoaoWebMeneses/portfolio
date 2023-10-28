@@ -1,0 +1,20 @@
+#navbar{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;
+    align-items: center;
+}
+#navbar li{
+    color:#000000;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-inline: 10px;
+    list-style: none;
+}
+#home{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
