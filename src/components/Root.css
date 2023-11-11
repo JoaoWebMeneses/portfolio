@@ -6,15 +6,27 @@
     padding-left: 40px;
     align-items: center;
 }
-#navbar li{
+#navbar li a{
     color:#000000;
     text-decoration: none;
     font-size: 1.5rem;
     margin-inline: 10px;
     list-style: none;
+    display: flex;
+    transition: 0.3s;
+}
+ul{
+    list-style: none;
+}
+#navbar li a:hover{
+    font-size: 1.7rem;
 }
 #home{
     border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
+    transition: 0.5s;
+}
+#home:hover{
+    font-size: 2rem;
 }

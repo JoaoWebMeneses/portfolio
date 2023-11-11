@@ -1,8 +1,8 @@
-import './App.css';
-import Navbar from './components/Navbar';
+import { RouterProvider } from "react-router-dom";
+import {router} from "./router"
 function App() {
   return (
-    <Navbar></Navbar>
+    <RouterProvider router={router}></RouterProvider>
   );
 }
 
