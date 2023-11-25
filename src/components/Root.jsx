@@ -5,19 +5,27 @@ function Root (){
     <div id="navbar">
       <nav>
         <NavLink 
+          id="home"
           className={({ isActive }) =>isActive ? "active link" : "link" }
-          to="/"
+          to="/home"
         >
-          Home
+          <a>Home</a>
         </NavLink>
-        <NavLink 
+        <NavLink
+          id="aboutme"
           className={({ isActive }) =>isActive ? "active link" : "link" }
           to="/aboutme"
         >
-          About Me
+          <a>About me</a>
+        </NavLink>
+        <NavLink
+          id="aboutme"
+          className={({ isActive }) =>isActive ? "active link" : "link" }
+          to="/projects"
+        >
+          <a>Projects</a>
         </NavLink>
       </nav>
-      <Outlet/>
     </div>
   )
 }

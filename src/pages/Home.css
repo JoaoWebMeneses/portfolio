@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Ubuntu:ital,wght@1,300&display=swap');
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#name{
+    font-size: 80px;
+    animation: fadein 5s;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#socialmedia{
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    align-items: center;
+}
