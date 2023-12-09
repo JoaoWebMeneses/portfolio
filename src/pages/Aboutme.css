@@ -1,0 +1,13 @@
+.linguagens{
+    width: 80%;
+    background-color: gray;
+    opacity: 0.6;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.imglinguagens{
+    margin: 20px;
+}
