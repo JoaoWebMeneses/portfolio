@@ -1,0 +1,59 @@
+.pagprojects{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.projects{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    background-color: rgb(177, 173, 173);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.fluxodecaixa{
+    width: 50%;
+    border: 1px solid blue;
+    margin-right: auto;
+    margin-left: auto;
+    color: blue;
+}
+
+.wikireceitas{
+    width: 50%;
+    border: 1px solid red;
+    margin-right: auto;
+    margin-left: auto;
+    color: red;
+}
+
+#bfluxo{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#bfluxo:hover{
+    cursor: pointer;
+    padding: 10px;
+}
+
+#bwiki{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#bwiki:hover{
+    cursor: pointer;
+    padding: 10px;
+}
